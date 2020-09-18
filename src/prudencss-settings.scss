@@ -105,8 +105,8 @@ $f-color__brand-accent: #ffe066;
 // Main text colors
 
 $f-color__neutral--primary: rgb(0, 0, 0);
-$f-color__neutral--secondary: rgb(255, 255, 255);
-$f-color__neutral--accent: rgb(255, 255, 200);
+$f-color__neutral--secondary: rgb(212, 175, 55);
+$f-color__neutral--accent: rgb(166, 16, 30);
 
 // Main backround colors
 
@@ -180,7 +180,8 @@ $f-font-family__decorative: (
   "alacarte--curvy": "Lobster",
   "newspaper--bold-thin": "Abril Fatface",
   "newspaper--swing": "Righteous",
-  "comic--sketch": "Fredericka the Great"
+  "comic--sketch": "Fredericka the Great",
+  "handy--beauty": "Alex Brush",
 );
 
 /* font families may be applied via the font-families utility classes:

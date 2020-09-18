@@ -1,0 +1,35 @@
+h1, h2, h3 {
+  filter: drop-shadow(3px 3px 3px rgb(0,0,0));
+}
+
+.o-crop {
+  height: 100vh;
+  background-image: url('/assets/patterns/oldpaper1.jpg');
+  background-repeat: repeat;
+}
+
+.o-crop__content {
+  position: fixed !important;
+  background-image: url('/assets/patterns/watercolor_paper_texture.jpg'), url('/assets/patterns/oldpaper2.jpg');
+  background-repeat: repeat;
+  background-blend-mode: soft-light;
+  margin: 0 -5rem;
+  padding: 1rem;
+}
+
+.o-media__img {
+  &> img {
+    width: 128px;
+  }
+}
+
+.o-media__body {
+  padding-left: 1rem;
+
+  ol > li {
+    background-image: url('/assets/patterns/watercolor_paper_texture.jpg');
+    background-repeat: repeat;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+}
